@@ -62,6 +62,7 @@ public class CameraShake : MonoBehaviour
             yield return null;
         }
 
+        // THIS WILL SET THE POSITION OF THE CAMERA BACK TO ITS ORIGINAL POSITION AFTER CAMERA SHAKE
         camTrans.position = originalPositionOfCamera;
 
     }
