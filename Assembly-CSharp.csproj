@@ -55,8 +55,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\BackgroundScroll.cs" />
      <Compile Include="Assets\Scripts\CameraShake.cs" />
      <Compile Include="Assets\Scripts\CameraZoom.cs" />
+     <Compile Include="Assets\Scripts\ForegroundScroll.cs" />
+     <Compile Include="Assets\Scripts\OnClickTest.cs" />
+     <Compile Include="Assets\Scripts\RotateWithMouse.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/Users/rakeshpatibanda/Documents/GitHub/Useful Unity Scripts/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
